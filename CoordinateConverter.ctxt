@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CoordinateConverter
+comment0.text=\n\ This\ class\ handles\ conversion\ between\ real-world\ coordinates\ (Easting/Northing)\n\ and\ pixel\ coordinates\ on\ the\ map\ display.\n\ \n\ @author\ Tejas\ Raj\n\ @version\ 2.0\n
+comment1.params=minEasting\ maxEasting\ minNorthing\ maxNorthing\ mapWidth\ mapHeight
+comment1.target=CoordinateConverter(double,\ double,\ double,\ double,\ double,\ double)
+comment1.text=\n\ Constructor\ for\ the\ CoordinateConverter\n\ \n\ @param\ minEasting\ The\ minimum\ easting\ (left/west\ edge\ of\ map)\n\ @param\ maxEasting\ The\ maximum\ easting\ (right/east\ edge\ of\ map)\n\ @param\ minNorthing\ The\ minimum\ northing\ (bottom/south\ edge\ of\ map)\n\ @param\ maxNorthing\ The\ maximum\ northing\ (top/north\ edge\ of\ map)\n\ @param\ mapWidth\ The\ width\ of\ the\ map\ in\ pixels\n\ @param\ mapHeight\ The\ height\ of\ the\ map\ in\ pixels\n
+comment2.params=xCoordinate
+comment2.target=double\ convertToRealEasting(double)
+comment2.text=\n\ Convert\ pixel\ X\ coordinate\ to\ real-world\ Easting\n\ \n\ @param\ xCoordinate\ The\ pixel\ X\ coordinate\n\ @return\ The\ real-world\ Easting\ value\n
+comment3.params=yCoordinate
+comment3.target=double\ convertToRealNorthing(double)
+comment3.text=\n\ Convert\ pixel\ Y\ coordinate\ to\ real-world\ Northing\n\ \n\ @param\ yCoordinate\ The\ pixel\ Y\ coordinate\n\ @return\ The\ real-world\ Northing\ value\n
+comment4.params=easting
+comment4.target=double\ convertToPixelX(double)
+comment4.text=\n\ Convert\ Easting\ (real-world\ X)\ to\ pixel\ X\ coordinate\n\ \n\ @param\ easting\ The\ real-world\ Easting\ value\n\ @return\ The\ pixel\ X\ coordinate\n
+comment5.params=northing
+comment5.target=double\ convertToPixelY(double)
+comment5.text=\n\ Convert\ Northing\ (real-world\ Y)\ to\ pixel\ Y\ coordinate\n\ (Reversed\ because\ Y\ coordinates\ in\ images\ increase\ downward)\n\ \n\ @param\ northing\ The\ real-world\ Northing\ value\n\ @return\ The\ pixel\ Y\ coordinate\n
+comment6.params=pixelX\ pixelY
+comment6.target=boolean\ isWithinBounds(double,\ double)
+comment6.text=\n\ Check\ if\ the\ given\ pixel\ coordinates\ are\ within\ the\ map\ bounds\n\ \n\ @param\ pixelX\ The\ pixel\ X\ coordinate\n\ @param\ pixelY\ The\ pixel\ Y\ coordinate\n\ @return\ True\ if\ within\ bounds,\ false\ otherwise\n
+numComments=7

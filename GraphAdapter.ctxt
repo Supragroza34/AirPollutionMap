@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GraphAdapter
+comment0.text=\n\ This\ class\ extends\ the\ Graph\ class\ to\ add\ getters\ for\ pollutant\ and\ year.\n\ Since\ we've\ modified\ the\ original\ structure,\ this\ adapter\ helps\ ensure\n\ the\ statistics\ component\ can\ access\ the\ selected\ pollutant\ and\ year.\n\ \n\ @author\ Everyone\n\ @version\ 2.0\n
+comment1.params=dataLoader\ cityDataFilter
+comment1.target=GraphAdapter(DataLoader,\ CityDataFilter)
+comment1.text=\n\ Constructor\ with\ dependencies\ for\ the\ GraphAdapter.\n\ \n\ @param\ dataLoader\ The\ data\ loader\ to\ retrieve\ pollution\ datasets\n\ @param\ cityDataFilter\ The\ filter\ to\ retrieve\ data\ for\ specific\ cities\n
+comment2.params=pollutant
+comment2.target=void\ setSelectedPollutant(java.lang.String)
+comment2.text=\n\ Sets\ the\ selected\ pollutant\ for\ the\ graph.\n\ \n\ @param\ pollutant\ The\ pollutant\ type\ to\ set\ as\ selected\ (e.g.,\ "NO2",\ "PM10",\ "PM2.5")\n
+comment3.params=year
+comment3.target=void\ setSelectedYear(java.lang.String)
+comment3.text=\n\ Sets\ the\ selected\ year\ for\ the\ graph.\n\ \n\ @param\ year\ The\ year\ to\ set\ as\ selected\ (e.g.,\ "2018",\ "2019",\ etc.)\n
+comment4.params=
+comment4.target=java.lang.String\ getSelectedPollutant()
+comment4.text=\n\ Gets\ the\ currently\ selected\ pollutant.\n\ \n\ @return\ The\ name\ of\ the\ currently\ selected\ pollutant,\ or\ null\ if\ none\ selected\n
+comment5.params=
+comment5.target=java.lang.String\ getSelectedYear()
+comment5.text=\n\ Gets\ the\ currently\ selected\ year.\n\ \n\ @return\ The\ currently\ selected\ year\ as\ a\ string,\ or\ null\ if\ none\ selected\n
+numComments=6

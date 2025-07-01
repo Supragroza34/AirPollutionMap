@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DataLoader
+comment0.text=\n\ This\ class\ loads\ air\ pollution\ data\ files\ from\ disk\ and\ manages\ datasets.\n\ It\ handles\ loading\ multiple\ datasets\ for\ different\ pollutants\ and\ years.\n\ \n\ @author\ Tejas\ Raj\n\ @version\ 2.0\n
+comment1.params=years\ pollutants
+comment1.target=void\ loadAllDatasets(java.util.List,\ java.util.List)
+comment1.text=\n\ Loads\ all\ datasets\ for\ the\ given\ years\ and\ pollutants\n\ \n\ @param\ years\ List\ of\ years\ to\ load\ data\ for\n\ @param\ pollutants\ List\ of\ pollutant\ types\ to\ load\ data\ for\n
+comment2.params=pollutant\ year
+comment2.target=DataSet\ getDataset(java.lang.String,\ java.lang.String)
+comment2.text=\n\ Get\ a\ dataset\ for\ a\ specific\ pollutant\ and\ year\n\ \n\ @param\ pollutant\ The\ pollutant\ type\n\ @param\ year\ The\ year\n\ @return\ The\ dataset\ or\ null\ if\ not\ found\n
+comment3.params=year\ pollutant
+comment3.target=java.lang.String\ getFilePath(java.lang.String,\ java.lang.String)
+comment3.text=\n\ Helper\ method\ to\ generate\ file\ path\ based\ on\ pollutant\ and\ year\n\ \n\ @param\ year\ The\ year\ for\ the\ dataset\n\ @param\ pollutant\ The\ pollutant\ type\n\ @return\ The\ file\ path\n
+comment4.params=fileName
+comment4.target=DataSet\ loadDataFile(java.lang.String)
+comment4.text=\ \n\ Read\ a\ data\ file\ from\ disk.\ The\ data\ must\ be\ a\ csv\ file,\ and\ must\ be\ in\ the\n\ DEFRA\ air\ pollution\ file\ format.\ The\ data\ is\ returned\ in\ a\ DataSet\ object.\n\ \n\ @param\ fileName\ The\ file\ to\ load\n\ @return\ A\ DataSet\ object\ holding\ the\ complete\ dataset\n
+comment5.params=br
+comment5.target=java.lang.String\ readDataHeader(java.io.BufferedReader)
+comment5.text=\n\ Read\ one\ piece\ of\ information\ out\ of\ the\ header\ of\ the\ data\ file.\n\ Each\ line\ in\ the\ header\ has\ the\ format\n\ \ \ \ DATA,,,\n\ That\ is,\ it\ is\ a\ four\ column\ csv\ entry\ where\ the\ first\ column\ holds\ the\ data\ we\n\ want\ and\ the\ other\ three\ columns\ are\ empty.\n\ We\ read\ and\ return\ only\ the\ data\ point\ from\ the\ first\ column.\n\ \n\ @return\ The\ data\ from\ the\ next\ header\ line\ of\ the\ file\ currently\ being\ read.\n
+numComments=6
