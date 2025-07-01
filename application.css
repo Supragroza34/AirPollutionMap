@@ -1,0 +1,147 @@
+/* Basic styling for UK Air Pollution Application */
+
+/* Root styles and color variables */
+.root {
+    -fx-background-color: #f5f5f5;
+    -fx-font-family: "Arial";
+}
+
+/* Menu bar styling */
+.menu-bar {
+    -fx-background-color: #2c3e50;
+}
+
+.menu-bar .label {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu-item {
+    -fx-background-color: white;
+}
+
+.menu-bar .menu-item .label {
+    -fx-text-fill: #2c3e50;
+}
+
+.menu-bar .menu-item:hover {
+    -fx-background-color: #ecf0f1;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-padding: 6 12;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+    -fx-cursor: hand;
+}
+
+/* Label styling */
+.label {
+    -fx-font-size: 12px;
+}
+
+/* Title label styling */
+.title-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 0 10 0;
+}
+
+/* Tab pane styling */
+.tab-pane {
+    -fx-background-color: #ffffff;
+}
+
+.tab {
+    -fx-background-color: #ecf0f1;
+}
+
+.tab:selected {
+    -fx-background-color: #3498db;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+}
+
+/* Text field styling */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3;
+    -fx-padding: 5;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+}
+
+/* Text area styling */
+.text-area {
+    -fx-font-family: "Arial";
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3;
+}
+
+.text-area .content {
+    -fx-background-color: white;
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 3;
+}
+
+.combo-box:focused {
+    -fx-border-color: #3498db;
+}
+
+/* Chart styling */
+.chart {
+    -fx-padding: 10;
+    -fx-background-color: white;
+}
+
+.chart-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+/* Welcome page specific styling */
+.welcome-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.instructions-box {
+    -fx-background-color: #ecf0f1;
+    -fx-padding: 10;
+    -fx-background-radius: 5;
+}
+
+/* Pane styling */
+.pane {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 3);
+}
+
+/* Tooltip styling */
+.tooltip {
+    -fx-background-color: #34495e;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 5;
+}

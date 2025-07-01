@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CityVisualizationHelper
+comment0.text=\n\ Helper\ class\ that\ contains\ visualization\ parameters\ for\ each\ city\n\ This\ allows\ for\ fine-tuning\ the\ visualization\ for\ each\ city's\ specific\ needs\n\ \n\ @author\ Amey\ Tripathi\n\ @version\ 2.0\n
+comment1.params=cityName
+comment1.target=CityVisualizationHelper.VisualizationParams\ getParamsForCity(java.lang.String)
+comment1.text=\n\ Get\ visualization\ parameters\ for\ a\ specific\ city\n\ \n\ @param\ cityName\ The\ name\ of\ the\ city\n\ @return\ The\ visualization\ parameters\ or\ default\ parameters\ if\ city\ not\ found\n
+comment2.params=
+comment2.target=CityVisualizationHelper.VisualizationParams\ getDefaultParams()
+comment2.text=\n\ Get\ default\ visualization\ parameters\ (London's\ parameters)\n\ \n\ @return\ Default\ visualization\ parameters\n
+numComments=3

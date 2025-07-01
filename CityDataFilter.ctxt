@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CityDataFilter
+comment0.text=\n\ This\ class\ filters\ data\ points\ to\ ensure\ they\ are\ within\ specified\ geographic\ boundaries.\n\ Used\ to\ ensure\ only\ data\ within\ specific\ city\ areas\ is\ displayed.\n\ \n\ @author\ Amey\ Tripathi\ and\ Tejas\ Raj\n\ @version\ 2.0\n
+comment1.params=
+comment1.target=CityDataFilter()
+comment1.text=\n\ Constructor\ for\ CityDataFilter\n
+comment2.params=cityName\ minEasting\ maxEasting\ minNorthing\ maxNorthing
+comment2.target=void\ addCity(java.lang.String,\ double,\ double,\ double,\ double)
+comment2.text=\n\ Add\ a\ city\ with\ its\ boundaries\n\ \n\ @param\ cityName\ The\ name\ of\ the\ city\n\ @param\ minEasting\ The\ minimum\ easting\ (left/west\ edge)\n\ @param\ maxEasting\ The\ maximum\ easting\ (right/east\ edge)\n\ @param\ minNorthing\ The\ minimum\ northing\ (bottom/south\ edge)\n\ @param\ maxNorthing\ The\ maximum\ northing\ (top/north\ edge)\n
+comment3.params=
+comment3.target=java.util.List\ getAvailableCities()
+comment3.text=\n\ Get\ all\ available\ city\ names\n\ \n\ @return\ List\ of\ city\ names\n
+comment4.params=cityName
+comment4.target=CityDataFilter.CityBoundary\ getCityBoundary(java.lang.String)
+comment4.text=\n\ Get\ a\ city's\ boundary\n\ \n\ @param\ cityName\ The\ name\ of\ the\ city\n\ @return\ The\ city\ boundary\ or\ null\ if\ not\ found\n
+comment5.params=allData\ cityName
+comment5.target=java.util.List\ filterCityArea(java.util.List,\ java.lang.String)
+comment5.text=\n\ Filter\ data\ points\ to\ only\ include\ those\ within\ the\ specified\ city\ boundaries\n\ \n\ @param\ allData\ The\ complete\ list\ of\ data\ points\n\ @param\ cityName\ The\ name\ of\ the\ city\ to\ filter\ for\n\ @return\ A\ filtered\ list\ containing\ only\ points\ within\ the\ city\ boundaries\n
+numComments=6

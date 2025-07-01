@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CityMapManager
+comment0.text=\n\ This\ class\ manages\ map\ images\ and\ properties\ for\ different\ cities\n\ \n\ @author\ Amey\ Tripathi\n\ @version\ 2.0\n
+comment1.params=
+comment1.target=CityMapManager()
+comment1.text=\n\ Constructor\ for\ CityMapManager\n
+comment2.params=cityName\ mapImagePath\ mapWidth\ mapHeight
+comment2.target=void\ addCity(java.lang.String,\ java.lang.String,\ double,\ double)
+comment2.text=\n\ Add\ a\ city\ with\ its\ map\ information\n\ \n\ @param\ cityName\ The\ name\ of\ the\ city\n\ @param\ mapImagePath\ The\ file\ path\ to\ the\ map\ image\n\ @param\ mapWidth\ The\ width\ of\ the\ map\ in\ pixels\n\ @param\ mapHeight\ The\ height\ of\ the\ map\ in\ pixels\n
+comment3.params=cityName
+comment3.target=CityMapManager.CityMapInfo\ getCityMapInfo(java.lang.String)
+comment3.text=\n\ Get\ city\ map\ information\n\ \n\ @param\ cityName\ The\ name\ of\ the\ city\n\ @return\ The\ city\ map\ info\ or\ null\ if\ not\ found\n
+comment4.params=cityName
+comment4.target=javafx.scene.image.Image\ loadCityMapImage(java.lang.String)
+comment4.text=\n\ Try\ to\ load\ the\ image\ for\ a\ city\n\ \n\ @param\ cityName\ The\ name\ of\ the\ city\n\ @return\ The\ image\ or\ null\ if\ it\ couldn't\ be\ loaded\n
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=CompareStatisticsTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ testCalculateAverage()
+comment3.params=
+comment3.target=void\ testCompareAveragePollution_MissingData()
+comment4.params=
+comment4.target=void\ testCompareMaxPollution_NoData()
+numComments=5

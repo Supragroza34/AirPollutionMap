@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CompareStatistics
+comment0.text=\n\ Class\ for\ comparing\ pollution\ statistics\ between\ different\ years.\n\ \n\ @author\ Ved\ Patel\n\ @version\ 2.0\n
+comment1.params=dataLoader\ cityDataFilter
+comment1.target=CompareStatistics(DataLoader,\ CityDataFilter)
+comment1.text=\n\ Constructor\ for\ CompareStatistics\ which\ initialises\ all\ components\ for\ caculating\ statistics.\n\ \n\ @param\ dataLoader\ The\ data\ loader\ object\n\ @param\ cityDataFilter\ The\ city\ data\ filter\ object\n
+comment2.params=pollutant\ year1\ year2\ cityName
+comment2.target=java.lang.String\ compareAveragePollution(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\n\ Compare\ average\ pollution\ values\ between\ two\ years\n\ \n\ @param\ pollutant\ The\ pollutant\ to\ compare\n\ @param\ year1\ First\ year\ for\ comparison\n\ @param\ year2\ Second\ year\ for\ comparison\n\ @param\ cityName\ Name\ of\ the\ city\ to\ compare\ data\ for\n\ @return\ A\ formatted\ string\ with\ comparison\ results\n
+comment3.params=pollutant\ year1\ year2\ cityName
+comment3.target=java.lang.String\ compareMaxPollution(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.text=\n\ Compare\ maximum\ pollution\ points\ between\ two\ years\n\ \n\ @param\ pollutant\ The\ pollutant\ to\ compare\n\ @param\ year1\ The\ first\ year\ for\ comparison\n\ @param\ year2\ The\ second\ year\ for\ comparison\n\ @param\ cityName\ The\ name\ of\ the\ city\ to\ compare\ data\ for\n\ @return\ A\ formatted\ string\ with\ comparison\ results\n
+comment4.params=dataPoints
+comment4.target=double\ calculateAverage(java.util.List)
+comment4.text=\n\ Calculate\ the\ average\ value\ from\ a\ list\ of\ data\ points.\n\ \n\ @param\ dataPoints\ The\ list\ of\ data\ points\n\ @return\ The\ average\ value\n
+comment5.params=dataPoints
+comment5.target=DataPoint\ findMaxPoint(java.util.List)
+comment5.text=\n\ Find\ the\ data\ point\ with\ the\ maximum\ value.\n\ \n\ @param\ dataPoints\ The\ list\ of\ data\ points\n\ @return\ The\ data\ point\ with\ the\ maximum\ value\n
+numComments=6
