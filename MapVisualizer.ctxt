@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MapVisualizer
+comment0.text=\n\ This\ class\ handles\ visualization\ of\ data\ points\ on\ the\ map\n\ Using\ the\ CityVisualizationHelper\ to\ get\ city-specific\ parameters\n\ \n\ @author\ Nitin\ Anantharaju\n\ @version\ 2.0\n
+comment1.params=mapPane\ converter\ cityName
+comment1.target=MapVisualizer(javafx.scene.layout.Pane,\ CoordinateConverter,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ the\ MapVisualizer\n\ \n\ @param\ mapPane\ The\ JavaFX\ pane\ that\ displays\ the\ map\n\ @param\ converter\ The\ coordinate\ converter\ for\ translating\ between\ real-world\ and\ pixel\ coordinates\n\ @param\ cityName\ The\ name\ of\ the\ current\ city\ being\ visualized\n
+comment2.params=
+comment2.target=void\ clearMapData()
+comment2.text=\n\ Clear\ all\ data\ visualizations\ from\ the\ map\n
+comment3.params=easting\ northing
+comment3.target=boolean\ plotPoint(double,\ double)
+comment3.text=\n\ Plot\ a\ point\ at\ the\ given\ real-world\ coordinates.\n\ \n\ @param\ easting\ The\ real-world\ easting\ coordinate\n\ @param\ northing\ The\ real-world\ northing\ coordinate\n\ @return\ True\ if\ the\ point\ was\ successfully\ plotted,\ false\ otherwise\n
+comment4.params=dataPoints
+comment4.target=void\ visualizePollutionData(java.util.List)
+comment4.text=\n\ Visualize\ the\ pollution\ data\ on\ the\ map\ using\ colored\ rectangles\n\ with\ city-specific\ parameters\ from\ CityVisualizationHelper.\n\ \n\ @param\ dataPoints\ The\ list\ of\ data\ points\ to\ visualize\n
+comment5.params=dataPoints
+comment5.target=void\ visualizeHighPollutionAreas(java.util.List)
+comment5.text=\n\ Visualize\ high\ pollution\ areas\ (areas\ with\ normalized\ value\ >\=\ threshold)\n\ with\ city-specific\ parameters\ from\ CityVisualizationHelper.\n\ \n\ @param\ dataPoints\ The\ list\ of\ data\ points\ to\ filter\ and\ visualize\n
+comment6.params=dataPoints
+comment6.target=void\ visualizeLowPollutionAreas(java.util.List)
+comment6.text=\n\ Visualize\ low\ pollution\ areas\ (areas\ with\ normalized\ value\ <\=\ threshold)\n\ with\ city-specific\ parameters\ from\ CityVisualizationHelper.\n\ \n\ @param\ dataPoints\ The\ list\ of\ data\ points\ to\ filter\ and\ visualize\n
+comment7.params=
+comment7.target=double\ getMaxNearestPointDistance()
+comment7.text=\n\ Get\ the\ maximum\ distance\ for\ finding\ the\ nearest\ data\ point\n\ \n\ @return\ The\ maximum\ distance\ value\n
+numComments=8

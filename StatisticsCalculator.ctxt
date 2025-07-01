@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=StatisticsCalculator
+comment0.text=\n\ This\ class\ calculates\ statistics\ about\ pollution\ data.\n\ \n\ @author\ Ved\ Patel\n\ @version\ 2.0\n
+comment1.params=dataPoints\ pollutant\ year\ units
+comment1.target=java.lang.String\ calculateStatistics(java.util.List,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ Calculate\ statistics\ for\ a\ list\ of\ data\ points\n\ \n\ @param\ dataPoints\ The\ list\ of\ data\ points\n\ @param\ pollutant\ The\ name\ of\ the\ pollutant\n\ @param\ year\ The\ year\ of\ the\ data\n\ @param\ units\ The\ units\ of\ measurement\n\ @return\ A\ formatted\ string\ with\ statistics\ information\n
+numComments=2
